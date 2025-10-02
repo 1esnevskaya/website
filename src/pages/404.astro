@@ -4,5 +4,30 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <PageHeader className="not-found-page-header" title="404"/>
+  <PageHeader className="not-found-page-header" title="404" />
+
+  <div style="padding: 32px; text-align: center;">
+    <h2>Страница не найдена :(</h2>
+    <p style="margin-top: 24px;">
+      Но новые страницы легко создаются в&nbsp;NocoBase&nbsp;— попробуйте!
+    </p>
+    <div style="margin-top: 40px;">
+      <a
+        href="https://my.nocobase.ru/signin?redirect=/admin"
+        style="display: inline-block; margin-right: 20px; padding: 12px 20px; background: #2b6cb0; color: white; text-decoration: none; border-radius: 6px;"
+        target="_blank"
+        rel="noopener"
+      >
+        Попробовать
+      </a>
+      <a
+        href="https://www.nocobase.com/ru/"
+        style="display: inline-block; padding: 12px 20px; background: #e2e8f0; color: #2b6cb0; text-decoration: none; border-radius: 6px;"
+        target="_blank"
+        rel="noopener"
+      >
+        Вернуться на главную
+      </a>
+    </div>
+  </div>
 </Layout>
